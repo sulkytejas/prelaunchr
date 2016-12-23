@@ -12,11 +12,4 @@
 //
 //= require jquery
 //= require jquery_ujs
-<<<<<<< HEAD
-//= require jquery-ui
-//= require jquery.ui.all
 //= require_tree .
-
-=======
-//= require_tree .
->>>>>>> cbe8056f6471937757184ce9b96f2aa3d601f779

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Prelaunchr
 ==========
 
@@ -106,7 +105,3 @@ the MIT license. Any branded assets are included only to illustrate and inspire.
 
 Please change the artwork to use your own brand! Harry's does not give
 you permission to use our brand or trademarks in your own marketing.
-=======
-# prelaaunchr
-Referral system
->>>>>>> cbe8056f6471937757184ce9b96f2aa3d601f779

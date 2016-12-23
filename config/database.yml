@@ -2,11 +2,7 @@ development:
   adapter: postgresql
   database: prelaunchr_development
   host: localhost
-  username: root
-  password: printedvillage
 test:
   adapter: postgresql
   database: prelaunchr_test
   host: localhost
-  username: root
-  password: printedvillage
