@@ -1,3 +1,7 @@
 web: bundle exec unicorn -p $PORT -c ./config/unicorn.rb
 worker:  bundle exec rake jobs:work
+<<<<<<< HEAD
 mailcatcher: mailcatcher -f --ip=0.0.0.0
+=======
+mailcatcher: mailcatcher -f
+>>>>>>> cbe8056f6471937757184ce9b96f2aa3d601f779

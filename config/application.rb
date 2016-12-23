@@ -2,6 +2,10 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> cbe8056f6471937757184ce9b96f2aa3d601f779
 Bundler.require(*Rails.groups)
 
 module Prelaunchr

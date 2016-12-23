@@ -4,6 +4,7 @@ ruby '2.3.0'
 
 gem 'activeadmin', '1.0.0.pre2'
 gem 'delayed_job_active_record', '~> 4.0.3'
+<<<<<<< HEAD
 gem 'devise', '~> 3.2'
 gem 'pg'
 gem 'rails', '4.2.5.2'
@@ -15,6 +16,12 @@ gem 'jquery-datetimepicker-rails'
 gem 'foreman'
 gem 'jquery-ui-sass-rails'
 gem 'mailcatcher'
+=======
+gem 'devise'
+gem 'pg'
+gem 'rails', '4.2.5.2'
+gem 'unicorn'
+>>>>>>> cbe8056f6471937757184ce9b96f2aa3d601f779
 
 
 # Gems used only for assets and not required
