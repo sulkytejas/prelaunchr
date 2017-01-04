@@ -16,7 +16,7 @@ class User < ActiveRecord::Base
   REFERRAL_STEPS = [
     {
       'count' => 5,
-      'html' => 'Shave<br>Cream',
+      'html' => 'Gift<br>Card $10',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
         'refer/cream-tooltip@2x.png')
@@ -40,7 +40,7 @@ class User < ActiveRecord::Base
       'html' => 'One Year<br>Free Blades',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/blade-explain@2x.png')
+        'refer/blade-explain.png')
     }
   ]
 
