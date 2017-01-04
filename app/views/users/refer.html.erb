@@ -1,6 +1,6 @@
 <div class="header">
   <div class="content">
-    <p class="logo brandon">Harry&#8217;s</p>
+    <p class="logo brandon">Printed Village</p>
     <p class="byline brandon">THANK YOU FOR SIGNING UP</p>
   </div>
 </div>
@@ -8,12 +8,12 @@
 <div class="hero">
   <div class="page-content clearfix">
     <div class="mammoth">
-      <span class="need brandon">Shaving Is<br>Evolving</span>
+      <span class="need brandon">Designing is<br>Designing</span>
     </div>
     <div class="share-wrap">
       <p class="why brandon">Don't leave your friends behind</p>
-      <p class="title brandon">INVITE FRIENDS &<br>Earn Product</p>
-      <p class="subtitle brandon">Share your unique link via email, Facebook<br>or Twitter and earn Harry's goods for<br>each friend who signs up.</p>
+      <p class="title brandon">INVITE FRIENDS &<br>Gift Cards</p>
+      <p class="subtitle brandon">Share your unique link via email, Facebook<br>or Twitter and earn Printed Village's goods for<br>each friend who signs up.</p>
       <div class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
       <% twitter_message = "#Shaving is evolving. Excited for @harrys to launch." %>
       <div class="social-links">
@@ -45,7 +45,7 @@
   <div class="page-content">
     <p class="callout brandon">Here's How It Works:</p>
     <ul class="products clearfix">
-      <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Harry's Product</p></li>
+      <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Printed Village's Gift Card</p></li>
       <% stops.each do |stop| %>
         <li class="product brandon <% if stop["selected"] %>selected<% end %> <% if stop["class"] == 'five' %>last<% end %>">
           <div class="circle"><%= stop["count"] %></div>
@@ -81,7 +81,7 @@
     <% end %>
     <p class="check brandon">Keep checking</p>
 
-    <p class="ship brandon">We ship to the U.S. (& Canada Soon)</p>
+    <p class="ship brandon">We ship to the U.S. & Canada</p>
     <a class="policy brandon" href="/privacy-policy" target="_blank">Privacy Policy</a>
   </div>
 </div>
