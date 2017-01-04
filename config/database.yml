@@ -1,8 +1,13 @@
 development:
   adapter: postgresql
-  database: prelaunchr_development
+  database: pv_develops
   host: localhost
+  username: postgres
+  password: Abcd@123
+
 test:
   adapter: postgresql
-  database: prelaunchr_test
+  database: pv_tests
   host: localhost
+  username: postgres
+  password: Abcd@123
