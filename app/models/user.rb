@@ -26,7 +26,7 @@ class User < ActiveRecord::Base
       'html' => 'Gift Card<br>$20',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/gf_two.png')
+        'refer/truman@2x.png')
     },
     {
       'count' => 25,
