@@ -42,7 +42,7 @@ html.home{
 #home .hero .large{
 	font-weight: bold;
 	font-size: 40px;
-	color: #074E6F;
+	color: #000;
 	text-transform: uppercase;
 	margin: 85px 0 0 136px;
 	position: relative;
@@ -81,7 +81,7 @@ html.home{
 #home .form-wrap .byline{
 	font-size: 15px;
 	text-transform: uppercase;
-	color: #074E6F;
+	color: #000;
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -92,7 +92,7 @@ html.home{
 	float: left;
 	font-size: 13px;
 	padding: 8px 0 8px 10px;
-	border: 1px solid #074E6F;
+	border: 1px solid #000;
 	width: 256px;
 	outline: none;
 	letter-spacing: 1px;
@@ -100,7 +100,7 @@ html.home{
 
 #home .form-wrap .submit{
 	width: 143px;
-	background: #074E6F;
+	background: #000;
 	float: left;
 	height: 37px;
 	line-height: 37px;
@@ -119,7 +119,7 @@ html.home{
 #home .form-wrap.ended .thanks{
 	text-transform: uppercase;
 	font-weight: 500;
-	color: #074e6f;
+	color: #000;
 	text-align: center;
 	font-size: 22px;
 	letter-spacing: 1px;
@@ -147,7 +147,7 @@ html.home{
 }
 
 #home .form-wrap.ended .go-to a{
-	color: #074e6f;
+	color: #000;
 	font-size: 19px;
 	font-weight:bold;
 	text-transform: uppercase;
@@ -175,7 +175,7 @@ html.home{
 #home .form-wrap.ended .thanks{
 	text-transform: uppercase;
 	font-weight: 500;
-	color: #074e6f;
+	color: #000;
 	text-align: center;
 	font-size: 22px;
 	letter-spacing: 1px;
@@ -203,7 +203,7 @@ html.home{
 }
 
 #home .form-wrap.ended .go-to a{
-	color: #074e6f;
+	color: #000;
 	font-size: 19px;
 	font-weight:bold;
 	text-transform: uppercase;
@@ -248,7 +248,7 @@ html.home{
 
 #refer .header{
 	height: 50px;
-	background: #074E6F;
+	background: #000;
 	width: 100%;
 	overflow:hidden;
 	z-index: 1;
@@ -286,7 +286,7 @@ html.home{
 }
 
 #refer .hero{
-	background: image-url("home/main.jpg") center center no-repeat;
+	background: image-url("refer/main.jpg") center center no-repeat;
 	height: 391px;
 	overflow: hidden;
 }
@@ -294,7 +294,7 @@ html.home{
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
-	background: image-url("refer/mammoth.png") 0 0 no-repeat;
+	/*background: image-url("refer/mammoth.png") 0 0 no-repeat;*/
 	background-size: 610px 394px;
 	overflow: hidden;
 	margin-top: 15px;
@@ -541,7 +541,7 @@ html.home{
 #refer .prizes .products li.product:hover .circle{
 	color: #FFF;
 	background: #000;
-	border-color: #074E6F;
+	border-color: #000;
 }
 
 #refer .prizes .products li.product .tooltip{
@@ -567,7 +567,7 @@ html.home{
 #refer .prizes p.place{
 	text-align: center;
 	font-size: 16px;
-	color: #074E6F;
+	color: #000;
 	width: 100%;
 	font-weight: 500;
 	margin-top: 30px;
