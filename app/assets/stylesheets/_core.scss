@@ -41,26 +41,27 @@ html.home{
 
 #home .hero .large{
 	font-weight: bold;
-	font-size: 40px;
-	color: #000;
-	text-transform: uppercase;
-	margin: 85px 0 0 136px;
-	position: relative;
-	z-index: 2;
-	letter-spacing: 2px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 11% 0 0 0px;
+    position: relative;
+    z-index: 2;
+    letter-spacing: 2px;
 }
 
 #home .hero .small{
 	font-weight: bold;
-	color: #955F5D;
+	color: #fff;
 	font-size: 18px;
-	margin: 10px 0 0 115px;
+	/*margin: 10px 0 0 115px;*/
 	line-height: 30px;
 	position: relative;
 	z-index: 2;
 	text-transform: uppercase;
 	text-align: center;
-	width: 375px;
+	/*width: 375px;*/
 	letter-spacing: 1px;
 }
 
