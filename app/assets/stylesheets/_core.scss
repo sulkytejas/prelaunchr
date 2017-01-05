@@ -287,6 +287,7 @@ html.home{
 
 #refer .hero{
 	background: image-url("refer/main.jpg") center center no-repeat;
+	background-size: cover;
 	height: 391px;
 	overflow: hidden;
 }
@@ -302,7 +303,7 @@ html.home{
 }
 
 #refer .mammoth .need{
-	color: #FFF;
+	color: #f35050;
 	font-size: 38px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -325,7 +326,7 @@ html.home{
 
 #refer .share-wrap .why{
 	font-size: 16px;
-	color: #555556;
+	color: #000;
 	font-weight: bold;
 	margin-top: 42px;
 }
