@@ -40,7 +40,7 @@ class User < ActiveRecord::Base
       'html' => 'Gift Card<br>$100',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/blade-explain@2x.png')
+        'refer/blade-explain.png')
     }
   ]
 
