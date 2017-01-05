@@ -280,14 +280,14 @@ html.home{
 	margin-right: 14px;
 	letter-spacing: 1px;
 	background: image-url("refer/logo.png") 0 0 no-repeat;
-	background-size: 106px 19px;
-	height: 19px;
-	width: 106px;
+	background-size: 300px 20px;
+	height: 20px;
+	width: 300px;
 	margin-top: 15px;
 }
 
 #refer .hero{
-	background: image-url("refer/main.jpg") center center no-repeat;
+	background-color: #fff;
 	background-size: cover;
 	height: 391px;
 	overflow: hidden;
@@ -296,7 +296,7 @@ html.home{
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
-	/*background: image-url("refer/mammoth.png") 0 0 no-repeat;*/
+	background: image-url("refer/mammoth.png") 0 0 no-repeat;
 	background-size: 610px 394px;
 	overflow: hidden;
 	margin-top: 15px;
