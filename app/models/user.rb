@@ -19,28 +19,28 @@ class User < ActiveRecord::Base
       'html' => 'Gift Card<br>$10',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'refer/gf_ten.png')
+        'refer/cream-tooltip@2x.png')
     },
     {
       'count' => 10,
       'html' => 'Gift Card<br>$20',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/gf_two.png')
+        'refer/truman@2x.png')
     },
     {
       'count' => 25,
       'html' => 'Gift Card<br>$50',
       'class' => 'four',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/gf_five.png')
+        'refer/winston@2x.png')
     },
     {
       'count' => 50,
       'html' => 'Gift Card<br>$100',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/gf_max.png')
+        'refer/blade-explain.png')
     }
   ]
 
