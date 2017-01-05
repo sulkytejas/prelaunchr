@@ -31,7 +31,7 @@ html.home{
 #home .hero{
 	width: 100%;
 	height: 446px;
-	background: image-url("home/hero.jpg") center center no-repeat;
+	/*background: image-url("home/hero.jpg") center center no-repeat;*/
 	background-size: 1600px 446px;
 	overflow: hidden;
 	position: relative;
@@ -286,7 +286,7 @@ html.home{
 }
 
 #refer .hero{
-	background: #F1F0EE;
+	background: image-url("home/main.jpg") center center no-repeat;
 	height: 391px;
 	overflow: hidden;
 }
@@ -335,7 +335,7 @@ html.home{
 	line-height: 40px;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #074E6F;
+	color: #000;
 	margin-top: 18px;
 	letter-spacing: .13em;
 }
@@ -403,7 +403,7 @@ html.home{
 #refer .prizes .callout{
 	text-align: center;
 	font-size: 16px;
-	color: #074E6F;
+	color: #000;
 	font-weight: bold;
 	margin: 20px 0 0 0;
 	letter-spacing: 2px;
@@ -451,7 +451,7 @@ html.home{
 #refer .prizes .products li.title{
 	height: 100%;
 	text-transform: uppercase;
-	color: #074E6F;
+	color: #000;
 	font-weight: 500;
 	font-size: 14px;
 	float: left;
@@ -472,7 +472,7 @@ html.home{
 
 #refer .prizes .products li.product{
 	height: 100%;
-	color: #074E6F;
+	color: #000;
 	width: 125px;
 	margin-right: 129px;
 	float: left;
@@ -540,14 +540,14 @@ html.home{
 
 #refer .prizes .products li.product:hover .circle{
 	color: #FFF;
-	background: #074E6F;
+	background: #000;
 	border-color: #074E6F;
 }
 
 #refer .prizes .products li.product .tooltip{
 	height: 254px;
 	width: 190px;
-	border: 4px solid #074E6F;
+	border: 4px solid #000;
 	position: absolute;
 	top: -285px;
 	left: -32px;

@@ -16,31 +16,31 @@ class User < ActiveRecord::Base
   REFERRAL_STEPS = [
     {
       'count' => 5,
-      'html' => 'Gift<br>Card $10',
+      'html' => 'Gift Card<br>$10',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'refer/cream-tooltip@2x.png')
+        'refer/gf_ten.png')
     },
     {
       'count' => 10,
-      'html' => 'Truman Handle<br>w/ Blade',
+      'html' => 'Gift Card<br>$20',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/truman@2x.png')
+        'refer/gf_two.png')
     },
     {
       'count' => 25,
-      'html' => 'Winston<br>Shave Set',
+      'html' => 'Gift Card<br>$50',
       'class' => 'four',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/winston@2x.png')
+        'refer/gf_five.png')
     },
     {
       'count' => 50,
-      'html' => 'One Year<br>Free Blades',
+      'html' => 'Gift Card<br>$100',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/blade-explain.png')
+        'refer/gf_max.png')
     }
   ]
 
