@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default from: "Printed Village's <designers.printedvillage.com>"
+  default from: "Printed Village's <tejas@printedvillage.com>"
 
   def signup_email(user)
     @user = user
