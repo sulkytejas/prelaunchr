@@ -8,7 +8,7 @@ gem 'devise'
 gem 'pg'
 gem 'rails', '4.2.5.2'
 gem 'unicorn'
-
+gem 'activerecord-session_store'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -41,5 +41,5 @@ end
 group :production do
   gem 'rails_12factor'
   gem 'rails_serve_static_assets'
-  gem 'activerecord-session_store'
+  
 end
