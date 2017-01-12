@@ -1,4 +1,4 @@
-<div class="header">
+<div class="header container">
   <div class="content">
     <p class="logo brandon">Printed Village</p>
     <p class="byline brandon">THANK YOU FOR SIGNING UP</p>
@@ -44,8 +44,8 @@
 <div class="prizes <% if found %>prize-<%= found["class"] %><% end %>">
   <div class="page-content">
     <p class="callout brandon">Here's How It Works:</p>
-    <ul class="products clearfix">
-      <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Reward</p></li>
+    <ul class="products clearfix row">
+      <li class="title brandon col-md-5"><p class="friends">Friends Joined</p><p class="rewards">Reward</p></li>
       <% stops.each do |stop| %>
         <li class="col-md-5 product brandon <% if stop["selected"] %>selected<% end %> <% if stop["class"] == 'five' %>last<% end %>">
           <div class="circle"><%= stop["count"] %></div>
