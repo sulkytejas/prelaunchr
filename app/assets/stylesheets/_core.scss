@@ -241,7 +241,7 @@ html.home{
 }
 
 #refer .page-content{
-	width: 1120px;
+	/*width: 1120px;*/
 	margin: 0 auto;
 	z-index: 0;
 	position: relative;
@@ -318,7 +318,7 @@ html.home{
 
 #refer .share-wrap{
 	float: right;
-	width: 400px;
+	/*width: 400px;*/
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: .13em;
@@ -396,7 +396,7 @@ html.home{
 }
 
 #refer .prizes{
-	width: 100%;
+	/*width: 100%;*/
 	background: #FFF;
 	border-top: 1px solid #D2D1C8;
 	padding-bottom: 100px;
@@ -676,6 +676,42 @@ only screen and (min-device-pixel-ratio: 2) {
 		background-size: 16px 10px;
 	}
 }
+
+@media only screen and (min-device-width : 768px) {
+
+	.container {
+
+		padding-right: 0px !important; 
+        padding-left: 0px !important; 
+	}
+
+	#refer .mammoth {
+		display: none;
+	}
+
+	#refer .share-wrap {
+		margin-right: 0px;
+	}
+
+	#refer .prizes ul.products {
+    height: 100%;
+    }
+
+    #refer .prizes .progress .mover .bar{
+	background: image-url("refer/progress-done.png") 0 0 repeat-x;
+	width: 4px;
+	height: 165px;
+	-webkit-background-size: 1px 4px;
+	background-size: 1px 4px;
+}
+
+    #refer .prize-two .progress .mover .bar{ width: 312px; }
+    #refer .prize-three .progress .mover .bar{ width: 566px; }
+	#refer .prize-four .progress .mover .bar{ width: 820px; }
+	#refer .prize-five .progress .mover .bar{ width: 1120px; }
+	
+}
+
 
 
 
