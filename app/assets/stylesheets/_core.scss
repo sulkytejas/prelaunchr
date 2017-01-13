@@ -364,7 +364,7 @@ html.home{
 }
 
 #refer .share-wrap .social-links{
-	width: 120px;
+	/*width: 120px;*/
 	height: 37px;
 	margin: 25px auto 0;
 	text-align: center;
@@ -686,7 +686,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 
 	#refer .hero {
-	 	
+
 	 background: image-url("refer/mammoth.png") 0 0 no-repeat;
 	}
 
@@ -721,7 +721,7 @@ only screen and (min-device-pixel-ratio: 2) {
   #refer .prizes .products li.product {
     
      width: 25%;
-     margin-right: 129px; 
+     margin-right: 0px; 
     }  
 	
 }
