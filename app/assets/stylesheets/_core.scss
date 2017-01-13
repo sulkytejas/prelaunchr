@@ -701,18 +701,22 @@ only screen and (min-device-pixel-ratio: 2) {
     height: 100%;
     }
 
+    #refer .prizes .products li.title {
+    	display:none;
+    }
+
     #refer .prizes .progress .mover .bar{
 	background: image-url("refer/progress-done.png") 0 0 repeat-x;
-	width: 4px;
-	height: 165px;
+	width: 25%;
+	/*height: 165px;*/
 	-webkit-background-size: 1px 4px;
 	background-size: 1px 4px;
 }
 
-    #refer .prize-two .progress .mover .bar{ width: 312px; }
-    #refer .prize-three .progress .mover .bar{ width: 566px; }
-	#refer .prize-four .progress .mover .bar{ width: 820px; }
-	#refer .prize-five .progress .mover .bar{ width: 1120px; }
+    #refer .prize-two .progress .mover .bar{ width: 25%; }
+    #refer .prize-three .progress .mover .bar{ width: 50%; }
+	#refer .prize-four .progress .mover .bar{ width: 75%; }
+	#refer .prize-five .progress .mover .bar{ width: 100%; }
 	
 }
 
