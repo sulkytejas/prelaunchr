@@ -685,6 +685,11 @@ only screen and (min-device-pixel-ratio: 2) {
         padding-left: 0px !important; 
 	}
 
+	#refer .hero {
+	 	
+	 background: image-url("refer/mammoth.png") 0 0 no-repeat;
+	}
+
 	#refer .mammoth {
 		display: none;
 	}
@@ -707,12 +712,17 @@ only screen and (min-device-pixel-ratio: 2) {
 	height: 165px;
 	-webkit-background-size: 1px 4px;
 	background-size: 1px 4px;
-}
+   }
 
-    #refer .prize-two .progress .mover .bar{ width: 312px; }
-    #refer .prize-three .progress .mover .bar{ width: 566px; }
-	#refer .prize-four .progress .mover .bar{ width: 820px; }
-	#refer .prize-five .progress .mover .bar{ width: 1120px; }
+   #refer .prizes .products li.title {
+   	display: none;
+   }
+
+  #refer .prizes .products li.product {
+    
+     width: 25%;
+     margin-right: 129px; 
+    }  
 	
 }
 
