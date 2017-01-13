@@ -94,7 +94,7 @@ html.home{
 	font-size: 13px;
 	padding: 8px 0 8px 10px;
 	border: 1px solid #000;
-	width: 256px;
+	/*width: 256px;*/
 	outline: none;
 	letter-spacing: 1px;
 }
@@ -626,7 +626,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
 		background: image-url("home/hero@2x.jpg") center center no-repeat;
-		background-size: 1600px 446px;
+		background-size: cover;
 	}
 
 	#home .form-wrap .key{
