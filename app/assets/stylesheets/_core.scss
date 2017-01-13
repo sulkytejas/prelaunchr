@@ -241,7 +241,7 @@ html.home{
 }
 
 #refer .page-content{
-	/*width: 1120px;*/
+	width: 1120px;
 	margin: 0 auto;
 	z-index: 0;
 	position: relative;
@@ -694,7 +694,11 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 
 	#refer .prizes ul.products {
-    height: 100%;
+      height: 100%;
+    }
+
+    #refer .page-content {
+     width: 100%;
     }
 
     #refer .prizes .progress .mover .bar{
