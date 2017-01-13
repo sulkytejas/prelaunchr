@@ -1,14 +1,14 @@
 # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
 Devise.setup do |config|
-  config.secret_key = ENV['2ed3fff58f85ec2832ec4d7c900dcf583a2b0a5fb9c3b2102499093b92fc20b59bb41ea07055c91adf8c20afd41efa8c08e192e7b61e68bd8098685b19ec0d4b']
+  config.secret_key = ENV['8087e2e65ef2df06711c063c079a060a936a9e11c548b6f517a4979662f0ec83c7fed7188c2efaa02cbbc7fd9542b1a5689e32618de7e0dcfc9ed93eb35bbfce']
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class with default "from" parameter.
   config.mailer_sender = "tejas@printedvillage.com"
 
-  config.secret_key = ENV['2ed3fff58f85ec2832ec4d7c900dcf583a2b0a5fb9c3b2102499093b92fc20b59bb41ea07055c91adf8c20afd41efa8c08e192e7b61e68bd8098685b19ec0d4b']
+  config.secret_key = ENV['8087e2e65ef2df06711c063c079a060a936a9e11c548b6f517a4979662f0ec83c7fed7188c2efaa02cbbc7fd9542b1a5689e32618de7e0dcfc9ed93eb35bbfce']
 
   # Configure the class responsible to send e-mails.
   # config.mailer = "Devise::Mailer"
