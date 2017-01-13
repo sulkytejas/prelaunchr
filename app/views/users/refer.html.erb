@@ -45,9 +45,9 @@
   <div class="page-content">
     <p class="callout brandon">Here's How It Works:</p>
     <ul class="products clearfix row">
-      <li class="title brandon col-md-5"><p class="friends">Friends Joined</p><p class="rewards">Reward</p></li>
+      <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Reward</p></li>
       <% stops.each do |stop| %>
-        <li class="col-md-5 product brandon <% if stop["selected"] %>selected<% end %> <% if stop["class"] == 'five' %>last<% end %>">
+        <li class="product brandon <% if stop["selected"] %>selected<% end %> <% if stop["class"] == 'five' %>last<% end %>">
           <div class="circle"><%= stop["count"] %></div>
           <div class="sep"></div>
           <p><%= stop["html"].html_safe %></p>
