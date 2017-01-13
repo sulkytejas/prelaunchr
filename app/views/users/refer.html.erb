@@ -14,7 +14,7 @@
       <p class="why brandon">Don't leave your friends behind</p>
       <p class="title brandon">INVITE FRIENDS &<br>Earn Gift Cards</p>
       <p class="subtitle brandon">Share your unique link via email, Facebook<br>or Twitter and earn Printed Village's dollars for<br>each friend who signs up.</p>
-      <div id="foo" value="<%= root_url %>?ref=<%= @user.referral_code %>" class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
+      <div id="foo" value="test" class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
       <% twitter_message = "#Launching artists into the world of retail. Excited for @printedvillage to launch." %>
       <div class="social-links">
         <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=Printedvillage" class="fb" target="_blank"></a>
