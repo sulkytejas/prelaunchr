@@ -13,6 +13,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.16/clipboard.min.js"></script>
+  <!-- google analytics script -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90549886-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
   <!--  <script>
     var clipboard = new Clipboard('.btn');
     clipboard.on('success', function(e) {
@@ -22,6 +35,7 @@
         console.log(e);
     });
   </script>
+
  -->  <meta property="og:title" content="Printed Village is here!"/>
   <meta property="og:description" content="Launching artists into the world of retail"/>
   <meta property="og:image" content="<%= asset_path("refer/truman.png") %>"/>
