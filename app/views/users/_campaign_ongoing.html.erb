@@ -1,6 +1,6 @@
 <!-- <div class="key"></div> -->
-<p class="byline brandon">Enter Your Email to start earning $$</p>
+<p class="byline brandon"></p>
 <%= form_for @user, :url => { :action => "create" } do |f| %>
-  <%= f.text_field :email, :placeholder => "Enter Your Email", :class => "email brandon" %>
+  <%= f.text_field :email, :placeholder => "Enter your email to start earning $$", :class => "email brandon" %>
   <input class="submit brandon" name="commit" type="submit" value="Step Inside" />
 <% end %>
